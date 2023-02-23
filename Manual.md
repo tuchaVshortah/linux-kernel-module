@@ -13,3 +13,15 @@ To create a kernel module, you need to write C code that implements certain func
 - `kmalloc()`: This function allocates memory dynamically.
 - `kfree()`: This function frees memory that was previously allocated with `kmalloc()`.
 - `printk()`: This function prints messages to the kernel log.
+
+You can extend functionality of your modules using various methods, here are a few ones:
+
+1. `Command-line arguments`: You could modify the module to accept command-line arguments that change its behavior. For example, you could pass in a string to print instead of the default "Hello, world!".
+
+2. `Parameters`: You could define module parameters that can be set when the module is loaded. For example, you could define a parameter that specifies the number of times to print the message.
+
+3. `User input`: You could modify the module to read input from userspace, either through a file or through a system call. This would allow users to interact with the module and change its behavior dynamically.
+
+4. `Timing`: You could modify the module to print the message at regular intervals or to print the message at a specific time. This would demonstrate how kernel modules can be used to perform scheduled tasks.
+
+5. `Interrupt handling`: You could modify the module to handle interrupts, such as a hardware interrupt or a signal from another process. This would demonstrate how kernel modules can interact with hardware and other processes in the system.
