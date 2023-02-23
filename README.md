@@ -24,4 +24,13 @@ Steps to reproduce:
       
       ![image](https://user-images.githubusercontent.com/71591558/220915557-5e165f3c-fc0b-448a-9de3-7f6e5e3dee82.png)
 
-  5.
+  5. To remove the module from your kernel use this command: 
+
+      ***sudo rmmod hello***
+      
+  6. Verify if it has been removed using the dmesg command. The module should send a ***goodbye*** log message:
+
+      ![image](https://user-images.githubusercontent.com/71591558/220928985-b97cce21-6939-4aff-8a35-730186aa69b9.png)
+      
+      ![image](https://user-images.githubusercontent.com/71591558/220929142-dad90dcc-bec6-4463-9199-882336f805fa.png)
+
