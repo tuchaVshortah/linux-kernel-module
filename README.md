@@ -1,6 +1,8 @@
 # linux-kernel-module
 OSC final assessment project
 
+***Refer to manual if you want to know how to build modules for the Linux kernel.***
+
 The ***build-essential*** package contains tools like ***gcc*** and ***make***, while ***linux-headers-$(uname -r)*** provides the kernel headers for your current kernel version.
 
 Steps to reproduce:
