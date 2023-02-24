@@ -25,3 +25,12 @@ You can extend functionality of your modules using various methods, here are a f
 4. `Timing`: You could modify the module to print the message at regular intervals or to print the message at a specific time. This would demonstrate how kernel modules can be used to perform scheduled tasks.
 
 5. `Interrupt handling`: You could modify the module to handle interrupts, such as a hardware interrupt or a signal from another process. This would demonstrate how kernel modules can interact with hardware and other processes in the system.
+
+## Character devices
+
+In Unix-based operating systems, a character device is a type of device file that provides unbuffered access to a stream of data. It is a type of file that allows input/output (I/O) operations to be performed on individual characters or bytes, rather than on a block of data. Character devices are used to represent devices that provide or consume data character by character, such as keyboards, mice, serial ports, and audio devices.
+
+Character devices are identified by special file names in the file system, usually located in the /dev directory. When a program opens a character device file, it can read from or write to the device by reading or writing to the file. The operating system kernel is responsible for managing access to the device and ensuring that data is transmitted correctly between the device and the program.
+
+
+##
