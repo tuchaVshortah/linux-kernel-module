@@ -22,7 +22,7 @@ Steps to reproduce:
       
       ![image](https://user-images.githubusercontent.com/71591558/221278584-4bc14e3e-441d-41df-8ac7-6caa7b2491ab.png)
 
-  5. To remove the module from your kernel use this command: 
+  5. To remove the module from your kernel use this command (or just run *make*): 
 
       ***sudo rmmod keylogger***
       
