@@ -1,4 +1,4 @@
-#Keylogger
+# Keylogger
 
 As you can see it has 2 versions. The first one is ***only capable of capturing key strokes and logging them***,
 whereas the second one is ***capable of capturing key strokes and sending them to the userspace*** via a character device.
