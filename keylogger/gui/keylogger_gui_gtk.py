@@ -28,5 +28,5 @@ class KeystrokeGUI:
         Gtk.main()
 
 if __name__ == "__main__":
-    gui = KeystrokeGUI("../keylogger2/keylog0")
+    gui = KeystrokeGUI("../v2/keylog0")
     gui.run()
