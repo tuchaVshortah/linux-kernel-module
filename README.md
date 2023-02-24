@@ -3,7 +3,7 @@ OSC final assessment project
 
 ### |===> ***Refer to manual if you want to know how to build modules for the Linux kernel.*** <===|
 
-### |===> ***The keylogger directory contains a module that captures key strokes*** <===|
+### |===> ***The keylogger directory contains a module that captures key strokes and sends them to the GUI via a character device*** <===|
 
 The ***build-essential*** package contains tools like ***gcc*** and ***make***, while ***linux-headers-$(uname -r)*** provides the kernel headers for your current kernel version.
 
