@@ -17,7 +17,7 @@ Steps to reproduce:
   
   4. Run this command to make sure the module has been loaded by the kernel: 
   
-      ***dmesg***
+      ***sudo dmesg***
       
       ![image](https://user-images.githubusercontent.com/71591558/221279731-abaae9f5-d2d3-47c0-8d38-68a795fec7a5.png)
 
