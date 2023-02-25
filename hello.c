@@ -3,7 +3,7 @@
 #include <linux/kernel.h>
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Your name");
+MODULE_AUTHOR("Nurkanat");
 MODULE_DESCRIPTION("A simple hello world module");
 
 static int __init hello_init(void) {
