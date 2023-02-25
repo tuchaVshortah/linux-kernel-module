@@ -4,6 +4,8 @@
 #include <linux/input.h>
 
 MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Nurkanat");
+MODULE_DESCRIPTION("A simple keylogger module");
 
 struct notifier_block nb;
 
