@@ -33,4 +33,5 @@ In Unix-based operating systems, a character device is a type of device file tha
 Character devices are identified by special file names in the file system, usually located in the /dev directory. When a program opens a character device file, it can read from or write to the device by reading or writing to the file. The operating system kernel is responsible for managing access to the device and ensuring that data is transmitted correctly between the device and the program.
 
 
-##
+## Buffer overflows
+
